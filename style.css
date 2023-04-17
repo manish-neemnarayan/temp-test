@@ -1,0 +1,35 @@
+.main{
+    border: 2px solid black;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 220px;
+    background-color: darkkhaki;
+    border-radius: 7px;
+}
+
+input{
+    height: 2em;
+    margin-top: 2em;
+}
+
+.upper{
+    display: flex;
+    gap: 20px;
+}
+
+.bottom{
+    display: flex;
+    gap: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+}
